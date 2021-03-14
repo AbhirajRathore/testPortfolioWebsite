@@ -16,7 +16,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74ea64a6-0932-4ef5-9ada-76db4ff43e47" name="Default Changelist" comment="123" />
+    <list default="true" id="74ea64a6-0932-4ef5-9ada-76db4ff43e47" name="Default Changelist" comment="123">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +37,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/website1" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pl9lHgUxPr8KQR05yuXEFKTaQb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -43,6 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +57,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="74ea64a6-0932-4ef5-9ada-76db4ff43e47" name="Default Changelist" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1615746959169</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -80,8 +86,22 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/website1" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="406" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615753368704">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="406" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680/-1366.1579.1366.728@0.0.1280.680" timestamp="1615753368704" />
+    <state x="150" y="0" key="SettingsEditor" timestamp="1615753023545">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="150" y="0" key="SettingsEditor/0.0.1280.680/-1366.1579.1366.728@0.0.1280.680" timestamp="1615753023545" />
     <state x="448" y="210" key="VCS.EditChangelistDialog" timestamp="1615747255887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
