@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Home {% endblock title %}
+{% block body %}
+<body class="text-center">
+<div class="container-fluid mx-10 px-10">
+    
+<main class="form-signin">
+  <form>
+    <img class="mb-4" src="static\data.jfif" alt="" width="600" height="333">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    <label for="inputEmail" class="visually-hidden">Email address</label>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+    <label for="inputPassword" class="visually-hidden">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">© 2021 </p>
+  </form>
+  </div>
+
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light"></h1>
+        <p class="lead text-muted">“May the force be with you.”</p>
+        <p class="lead text-muted"> -Star Wars(1977)</p>
+      </div>
+    </div>
+  </section>  
+</main>
+
+<footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-start">
+  <div class="container">
+
+    <p class="mb-0">Designed and built with all the love in the world by <a href="https://www.linkedin.com/in/abhiraj-singh-rathore-2132ba1b6/">Abhiraj Singh Rathore</a>.</p>
+    
+  </div>
+</footer>
+
+</body>
+{% endblock body %}

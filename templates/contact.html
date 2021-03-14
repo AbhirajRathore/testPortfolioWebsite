@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %}Contact Us {% endblock title %}
+{% block body %}
+<div class+"container-fluid px-0">
+<img src="static\contactme.jpg" class="d-block w-100 mx-0 alt="...">
+</div>
+<div class="container mb-5">
+<h1 class="text-center">Contact Me</h1>
+<form method="post" action="/contact">
+{% csrf_token %}
+<div class="mb-3">
+  <label for="name" class="form-label">Name</label>
+  <input type="text" class="form-control" id="name" name="name" rows="1">
+</div>
+<div class="mb-3">
+  <label for="email" class="form-label">Email address</label>
+  <input type="text" class="form-control" id="email" name="email" >
+</div>
+<div class="mb-3">
+  <label for="phone" class="form-label">Enter Your Phone number</label>
+  <input type="text" class="form-control" id="phone" name="phone" rows="1">
+</div>
+
+<div class="mb-3">
+  <label for="desc" class="form-label">Enter Your Query</label>
+  <input type="text" class="form-control" id="desc" name="desc" rows="3">
+</div>
+<button class="btn btn-primary" type="submit">Submit</button>
+</form>
+</div>
+<footer class="bd-footer p-3 p-md-5 mt-5 bg-light text-center text-sm-start">
+  <div class="container">
+
+    <p class="mb-0">Designed and built with all the love in the world by the <a href="https://www.linkedin.com/in/abhiraj-singh-rathore-2132ba1b6/">Abhiraj Singh Rathore</a>.</p>
+    
+  </div>
+</footer>
+{% endblock body %}
